@@ -7,7 +7,7 @@ return {
   -- example of imporing a plugin, comment out to use it or add your own
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
-  -- { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.bars-and-lines.heirline-mode-text-statusline" },
   { import = "astrocommunity.colorscheme.gruvbox-baby" },
 
   { import = "astrocommunity.pack.go" },
@@ -20,7 +20,6 @@ return {
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.markdown" },
 
-  { import = "astrocommunity.scrolling.mini-animate", enabled = GUI() },
   { import = "astrocommunity.scrolling.nvim-scrollbar" },
 
   { import = "astrocommunity.syntax.hlargs-nvim" },
