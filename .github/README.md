@@ -4,7 +4,7 @@ A user configuration template for [AstroNvim](https://github.com/AstroNvim/Astro
 
 ## Screenshot
 
-![[Snipaste_2023-05-08_09-45-44.jpg]]
+![123](Snipaste_2023-05-08_09-45-44.jpg)
 
 ## 🛠️ Installation
 
