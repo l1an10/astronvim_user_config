@@ -10,22 +10,27 @@ return {
   { import = "astrocommunity.bars-and-lines.lualine-nvim" },
   { import = "astrocommunity.bars-and-lines.heirline-mode-text-statusline" },
   { import = "astrocommunity.colorscheme.gruvbox-baby" },
+  { import = "astrocommunity.colorscheme.nightfox" },
+  { import = "astrocommunity.colorscheme.catppuccin" },
 
   { import = "astrocommunity.pack.go" },
-  { import = "astrocommunity.pack.python" },
-  { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.lua" },
-  { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.toml" },
   { import = "astrocommunity.pack.yaml" },
-  { import = "astrocommunity.pack.json" },
-  { import = "astrocommunity.pack.markdown" },
+  -- { import = "astrocommunity.pack.python" },
+  -- { import = "astrocommunity.pack.typescript" },
+  -- { import = "astrocommunity.pack.bash" },
+  -- { import = "astrocommunity.pack.json" },
+  -- { import = "astrocommunity.pack.markdown" },
 
   { import = "astrocommunity.scrolling.nvim-scrollbar" },
+  { import = "astrocommunity.motion.mini-move" },
 
   { import = "astrocommunity.syntax.hlargs-nvim" },
   { import = "astrocommunity.test.neotest" },
+  { import = "astrocommunity.editing-support.nvim-ts-rainbow" },
+  { import = "astrocommunity.project.project-nvim" },
 
   { import = "astrocommunity.utility.transparent-nvim" },
-  { import = "astrocommunity.utility.noice-nvim" },
+  -- { import = "astrocommunity.utility.noice-nvim" },
 }

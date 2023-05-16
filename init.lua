@@ -1,7 +1,7 @@
 return {
   -- Set colorscheme to use
-  colorscheme = "gruvbox-baby",
-  -- colorscheme = "evening",
+  -- colorscheme = "gruvbox-baby",
+  colorscheme = "nightfox",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
