@@ -1,18 +1,15 @@
 function GUI() return vim.g.neovide and false or true end
 
+-- https://github.com/AstroNvim/astrocommunity
 
 return {
-  -- Add the community repository of plugin specifications
   "AstroNvim/astrocommunity",
-  -- example of imporing a plugin, comment out to use it or add your own
-  -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
   { import = "astrocommunity.bars-and-lines.lualine-nvim" },
+  -- { import = "astrocommunity.bars-and-lines.dropbar-nvim" },
   { import = "astrocommunity.bars-and-lines.heirline-mode-text-statusline" },
-  { import = "astrocommunity.colorscheme.gruvbox-baby" },
-  { import = "astrocommunity.colorscheme.nightfox" },
-  { import = "astrocommunity.colorscheme.catppuccin" },
-
+  { import = "astrocommunity.colorscheme.sonokai" },
+   
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.toml" },
@@ -24,13 +21,10 @@ return {
   -- { import = "astrocommunity.pack.markdown" },
 
   { import = "astrocommunity.scrolling.nvim-scrollbar" },
-  { import = "astrocommunity.motion.mini-move" },
 
   { import = "astrocommunity.syntax.hlargs-nvim" },
   { import = "astrocommunity.test.neotest" },
-  { import = "astrocommunity.editing-support.nvim-ts-rainbow" },
+  { import = "astrocommunity.fuzzy-finder.telescope-zoxide" },
+  { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
   { import = "astrocommunity.project.project-nvim" },
-
-  { import = "astrocommunity.utility.transparent-nvim" },
-  -- { import = "astrocommunity.utility.noice-nvim" },
 }
